@@ -15,6 +15,11 @@ body {
   background-color: #000;
   color: #fff !important;
 }
+.banner {
+  max-width: 1280px;
+  max-height: 336px;
+  margin: 0 auto;
+}
 /* Bootstrap override */
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
@@ -82,6 +87,5 @@ body {
 .navbar-nav {
   width: 100%;
 }
-/* testing git hjhj */
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
