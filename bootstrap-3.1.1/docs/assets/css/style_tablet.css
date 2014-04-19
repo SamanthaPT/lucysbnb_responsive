@@ -1,4 +1,10 @@
 /* min-width:768px and max-width:991px */
 /* min-width:768px and max-width:991px */
+.navbar-nav > li {
+  margin-left: 0px;
+}
+.navbar-nav > li > a {
+  padding: 7px 12px;
+}
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
