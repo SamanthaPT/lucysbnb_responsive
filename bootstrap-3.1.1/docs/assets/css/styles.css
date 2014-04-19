@@ -1,0 +1,87 @@
+/* Lucy's Bed & Breakfast */
+/* Lucy's Bed & Breakfast */
+body {
+  font-family: 'Gudea', sans-serif;
+  font-size: 14px;
+  color: #3C3E44;
+  background-image: url(../images/gray_jean.png);
+}
+.top-padding {
+  background-color: #000;
+  height: 16px;
+  margin-bottom: 30px;
+}
+.btn_feature {
+  background-color: #000;
+  color: #fff !important;
+}
+/* Bootstrap override */
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0);
+  border-color: rgba(231, 231, 231, 0);
+}
+.navbar-default .navbar-nav > li > a {
+  color: #3C3E44;
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  padding: 7px 15px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #a72563;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #a72563;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #a72563;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.dropdown-menu {
+  min-width: 130px;
+  background-color: #a72563;
+  border: 0px solid #a72563;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0);
+}
+.dropdown-menu > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: #a72563;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.navbar-nav > li:first-child {
+  margin-left: 0px;
+}
+.navbar-nav > li {
+  margin-left: 10px;
+}
+.navbar-collapse {
+  padding-left: 0px;
+}
+.navbar-nav {
+  width: 100%;
+}
+/* testing git hjhj */
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
