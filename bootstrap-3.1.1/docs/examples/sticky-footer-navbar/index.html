@@ -38,6 +38,34 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery-1.11.0.min.js"></script>
+    <script src="../../assets/js/jquery-1.11.0.js"></script>
+	
+	<script type="text/javascript">
+
+  
+      $(document).ready(function(){
+		
+		$(".pickups").click(function(){
+          $("#pickups").show();
+        });
+
+        $("#close_popup4").click(function(){
+          $("#popup4").hide();
+        });
+
+        
+      });
+    
+    </script>
+	
   </head>
 
   <body>
@@ -87,14 +115,14 @@
 	<div>
 		<div class="container">
 		  <div class="row margin_reset">
-			<h1>Features - <span>all included with the <a href="/book_room">room price</a></span></h1>
+			<h1 class="test_click">Features - <span>all included with the <a href="javascript:void(0)">room price</a></span></h1>
 		  </div>
 		  <div class="row features_list margin_reset">
 			<div class="holder">
 				<div class="feature pull-left">
 					<div class="feature_icon pickups"></div>
 					<p>Pickups</p>
-					<div class="popup_wrapper">
+					<div class="popup_wrapper hidden-xs">
 						<div class="popup">
 							<p>Pick-ups are included in the room price - please mention pick-ups at booking.</p>
 							<div class="triangle-down"></div>
@@ -104,7 +132,7 @@
 				<div class="feature pull-left">
 					<div class="feature_icon wifi"></div>
 					<p>Wifi Internet</p>
-					<div class="popup_wrapper">
+					<div class="popup_wrapper hidden-xs">
 						<div class="popup">
 							<p>Wifi internet available at guest's disposal.</p>
 							<div class="triangle-down"></div>
@@ -114,7 +142,7 @@
 				<div class="feature pull-left">
 					<div class="feature_icon comfort"></div>
 					<p>Comfort</p>
-					<div class="popup_wrapper">
+					<div class="popup_wrapper hidden-xs">
 						<div class="popup">
 							<p>Rest well on our orthopedic matresses.</p>
 							<div class="triangle-down"></div>
@@ -124,7 +152,7 @@
 				<div class="feature pull-left">
 					<div class="feature_icon jacuzzi"></div>
 					<p>Jacuzzi Tub</p>
-					<div class="popup_wrapper fix_4_popup">
+					<div class="popup_wrapper fix_4_popup hidden-xs">
 						<div class="popup">
 							<p>Jacuzzi tub available at guest's disposal for relaxing baths.</p>
 							<div class="triangle-down fix_4_triangle"></div>
@@ -132,11 +160,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="popup_mobile" id="pickups">
+				<p>Pick-ups are included in the room price - please mention pick-ups at booking.</p>
+				<div class="triangle-down"></div>
+			</div>
 			<div class="holder">
 				<div class="feature pull-left">
 					<div class="feature_icon cable"></div>
 					<p>Cable TV</p>
-					<div class="popup_wrapper">
+					<div class="popup_wrapper hidden-xs">
 						<div class="popup">
 							<p>Including international stations.</p>
 							<div class="triangle-down"></div>
@@ -146,7 +178,7 @@
 				<div class="feature pull-left">
 					<div class="feature_icon english"></div>
 					<p>English Spoken</p>
-					<div class="popup_wrapper">
+					<div class="popup_wrapper hidden-xs">
 						<div class="popup">
 							<p>Fluent english spoken.</p>
 							<div class="triangle-down"></div>
@@ -156,7 +188,7 @@
 				<div class="feature pull-left">
 					<div class="feature_icon breakfast"></div>
 					<p>Breakfast</p>
-					<div class="popup_wrapper2">
+					<div class="popup_wrapper2 hidden-xs">
 						<div class="popup">
 							<p>Our menu consists mostly of all natural island produce, which include: dairy (cheeses, milk, butter), eggs, breads, tea, fruits (when in season) and honey. We also specialize in a more north-american style breakfast, like pancakes, bacon, sausages, scrambled eggs, etc. Vegetarian alternatives are also available.</p>
 							<div class="triangle-down2"></div>
@@ -166,7 +198,7 @@
 				<div class="feature pull-left">
 					<div class="feature_icon laundry"></div>
 					<p>Laundry</p>
-					<div class="popup_wrapper3">
+					<div class="popup_wrapper3 hidden-xs">
 						<div class="popup">
 							<p>We do your laundry no extra charge.</p>
 							<div class="triangle-down3"></div>
@@ -183,12 +215,5 @@
         <p class="text-muted">Place sticky footer content here.</p>
       </div>
     </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../assets/js/bootstrap.min.js"></script>
   </body>
 </html>
