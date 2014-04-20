@@ -50,3 +50,30 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+.popup_wrapper2 {
+  left: auto;
+  top: -144px;
+  right: 0px;
+  width: 561px;
+}
+.popup_wrapper3 {
+  left: auto;
+  width: 260px;
+  right: 0px;
+}
+.triangle-down {
+  left: 85px;
+}
+.triangle-down2,
+.triangle-down3 {
+  right: 85px;
+  left: auto;
+}
+.fix_4_popup {
+  right: -6px;
+  width: 400px;
+}
+.fix_4_triangle {
+  right: 85px;
+  left: auto;
+}
