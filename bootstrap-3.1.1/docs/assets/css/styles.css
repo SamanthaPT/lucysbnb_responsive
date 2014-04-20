@@ -9,7 +9,7 @@ body {
 .top-padding {
   background-color: #000;
   height: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .btn_feature {
   background-color: #000;
@@ -17,8 +17,10 @@ body {
 }
 .banner {
   max-width: 1280px;
-  max-height: 336px;
+  max-height: 352px;
   margin: 0 auto;
+  border-top: 8px solid #000;
+  border-bottom: 8px solid #000;
 }
 /* Bootstrap override */
 .navbar-default {
@@ -86,6 +88,9 @@ body {
 }
 .navbar-nav {
   width: 100%;
+}
+.navbar {
+  border: 0px solid transparent;
 }
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
