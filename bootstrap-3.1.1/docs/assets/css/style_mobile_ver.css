@@ -37,5 +37,15 @@
   padding: 8px;
   height: auto;
 }
+.top-padding {
+  margin-bottom: 10px;
+}
+.navbar {
+  margin-bottom: 10px;
+}
+.banner {
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+}
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
