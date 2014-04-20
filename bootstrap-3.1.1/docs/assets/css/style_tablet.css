@@ -9,5 +9,12 @@
 .dropdown-menu {
   min-width: 124px;
 }
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+.holder {
+  float: none;
+}
+.feature {
+  width: 25%;
+  height: 125px;
+  padding-top: 25px;
+  margin-left: 0px;
+}

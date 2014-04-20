@@ -37,3 +37,16 @@
   padding: 8px;
   height: auto;
 }
+.holder {
+  float: none;
+}
+.feature {
+  width: 25%;
+  height: 125px;
+  padding-top: 25px;
+  margin-left: 0px;
+}
+.margin_reset {
+  margin-left: 0px;
+  margin-right: 0px;
+}
