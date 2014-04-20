@@ -22,6 +22,9 @@ body {
   border-top: 8px solid #000;
   border-bottom: 8px solid #000;
 }
+.pull-right_ws {
+  float: right !important;
+}
 /* Bootstrap override */
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
@@ -91,6 +94,10 @@ body {
 }
 .navbar {
   border: 0px solid transparent;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: rgba(231, 231, 231, 0);
 }
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

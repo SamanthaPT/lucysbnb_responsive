@@ -1,2 +1,41 @@
 /* min-width:480px and max-width:767px */
 /* min-width:480px and max-width:767px */
+.pull-right_ws {
+  float: none !important;
+}
+.navbar-default .navbar-toggle {
+  margin-left: 15px;
+}
+.navbar-nav {
+  background-color: #fff;
+  margin: 7.5px -15px 7.5px 0px;
+  padding-left: 0;
+}
+.navbar-nav > li:first-child {
+  margin-left: 0px;
+}
+.navbar-nav > li {
+  margin-left: 0px;
+}
+.navbar-collapse {
+  padding-left: 15px;
+}
+.navbar-default .navbar-toggle {
+  border-color: #000;
+  background-color: #000;
+  margin: 0px 0px 0px 15px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #000;
+}
+.navbar-default .navbar-brand {
+  color: #3C3E44 !important;
+  padding: 8px;
+  height: auto;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
