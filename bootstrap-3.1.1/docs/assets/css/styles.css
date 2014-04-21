@@ -101,17 +101,17 @@ h1 a:hover {
 }
 .popup_wrapper {
   width: 510px;
-  top: -84px;
+  top: -70px;
   position: absolute;
 }
 .popup_wrapper2 {
   left: -720px;
-  top: -124px;
+  top: -98px;
   position: absolute;
 }
 .popup_wrapper3 {
   left: -140px;
-  top: -84px;
+  top: -70px;
   position: absolute;
 }
 .feature:hover .pickups {
@@ -151,6 +151,8 @@ h1 a:hover {
   font-family: 'Gudea', sans-serif;
   text-align: justify;
   font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 0px;
 }
 .triangle-down,
 .triangle-down2,
@@ -177,6 +179,12 @@ h1 a:hover {
 }
 .feature:hover .popup {
   display: block;
+}
+.mobile_horizontal {
+  display: none;
+}
+.mobile_vertical {
+  display: none;
 }
 /* Bootstrap override */
 .navbar-default {

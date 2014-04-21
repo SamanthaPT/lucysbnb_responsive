@@ -61,9 +61,14 @@
 
 .feature {
 	width: 100%;
-	height: 125px;
+	height: 109px;
 	padding-top: 25px;
 	margin-left: 0px;
+	&:hover {
+		color: #3C3E44;
+		background: rgba(0, 0, 0, 0);
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
 }
 
 .margin_reset {
@@ -72,7 +77,79 @@
 }
 
 .holder {
-	float: auto;
+	float: none;
+}
+
+.popup_mobile {
+	position: relative;
+	background-color: black;
+	border-radius: 3px;
+	display: none;
+	p {
+		padding: 21px;
+		color: white;
+		margin-bottom: 0px;
+	}
+}
+
+.feature:hover .pickups {
+	background-image: url(../images/pickups.png);
+}
+
+.feature:hover .wifi {
+	background-image: url(../images/wifi.png);
+}
+
+.feature:hover .comfort {
+	background-image: url(../images/comfort.png);
+}
+
+.feature:hover .jacuzzi {
+	background-image: url(../images/jacuzzi.png);
+}
+
+.feature:hover .cable {
+	background-image: url(../images/cable.png);
+}
+
+.feature:hover .english {
+	background-image: url(../images/english.png);
+}
+
+.feature:hover .breakfast {
+	background-image: url(../images/breakfast.png);
+}
+
+.feature:hover .laundry {
+	background-image: url(../images/laundry.png);
+}
+
+.triangle-up {
+	position: absolute;
+	top: -10px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #000;
+}
+
+.tp {
+	left: 46.5%;
+}
+
+.visible_class {
+	display: block;
+}
+
+.mobile_vertical {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+h1 {
+	margin-bottom: 0px;
 }
 
 
