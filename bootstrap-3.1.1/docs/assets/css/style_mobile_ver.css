@@ -126,3 +126,6 @@ h1 {
 .fml {
   margin-left: 0px !important;
 }
+.padding_reset {
+  padding-left: 15px !important;
+}

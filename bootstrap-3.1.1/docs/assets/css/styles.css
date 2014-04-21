@@ -5,6 +5,7 @@ body {
   font-size: 14px;
   color: #3C3E44;
   background-image: url(../images/gray_jean.png);
+  margin-bottom: 200px !important;
 }
 .top-padding {
   background-color: #000;
@@ -189,6 +190,9 @@ h1 a:hover {
 .mobile_vertical {
   display: none;
 }
+.padding_reset {
+  padding-left: 0px !important;
+}
 /* Bootstrap override */
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
@@ -266,4 +270,24 @@ h1 a:hover {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: rgba(231, 231, 231, 0);
+}
+#footer {
+  background-color: #000000 !important;
+  height: 200px !important;
+  padding-top: 70px;
+}
+#footer ul {
+  padding-left: 0px;
+}
+#footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+#footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: .8em;
+}
+#footer ul li a:hover {
+  text-decoration: underline;
 }
