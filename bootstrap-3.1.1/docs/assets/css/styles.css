@@ -193,6 +193,56 @@ h1 a:hover {
 .padding_reset {
   padding-left: 0px !important;
 }
+.facebook_btn {
+  background-color: #ffffff;
+  padding: 7px 10px 7px 0px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin-bottom: 0px;
+  line-height: 12px;
+}
+.facebook_btn p {
+  font-size: .7em;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.facebook_btn span {
+  font-weight: 800;
+  font-size: 1.6em;
+}
+.facebook_f {
+  position: relative;
+  float: left;
+  width: 12px;
+  height: 23px;
+  background-image: url(../images/facebook_f_1.png);
+  margin: 3px 13px 0px 13px;
+}
+.facebook_text {
+  position: relative;
+  float: left;
+}
+.mt1 {
+  margin-top: 1px;
+}
+.ar-al {
+  float: right;
+}
+.facebook_btn:hover,
+.facebook_btn:hover .facebook_text p {
+  background-color: #3b5998;
+  color: #ffffff;
+  transition: background .25s linear;
+  -webkit-transition: background .25s linear;
+  -moz-transition: background .25s linear;
+}
+.facebook_btn:hover .facebook_f {
+  background-image: url(../images/facebook_f_hover.png);
+}
+.cf_gap {
+  margin-bottom: 0px;
+}
 /* Bootstrap override */
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
@@ -290,4 +340,9 @@ h1 a:hover {
 }
 #footer ul li a:hover {
   text-decoration: underline;
+}
+p.small_txt_footer {
+  color: #ffffff;
+  font-size: .8em;
+  margin-top: 40px;
 }
