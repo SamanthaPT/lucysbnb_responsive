@@ -1,0 +1,58 @@
+/* min-width:768px and max-width:991px */
+/* min-width:768px and max-width:991px */
+.navbar-nav > li {
+  margin-left: 0px;
+}
+.navbar-nav > li > a {
+  padding: 7px 12px;
+}
+.dropdown-menu {
+  min-width: 124px;
+}
+.holder {
+  float: none;
+}
+.feature {
+  width: 25%;
+  height: 125px;
+  padding-top: 25px;
+  margin-left: 0px;
+}
+.popup_wrapper {
+  width: 370px;
+}
+.popup_wrapper2 {
+  left: auto;
+  top: -112px;
+  right: 0px;
+  width: 561px;
+}
+.popup_wrapper3 {
+  left: auto;
+  width: 260px;
+  right: 0px;
+}
+.xtra_width {
+  width: 510px;
+}
+.triangle-down {
+  left: 85px;
+}
+.triangle-down2,
+.triangle-down3 {
+  right: 85px;
+  left: auto;
+}
+.fix_4_popup {
+  right: -6px;
+  width: 400px;
+}
+.fix_4_triangle {
+  right: 85px;
+  left: auto;
+}
+.fml {
+  margin-left: 0px !important;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
