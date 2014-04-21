@@ -18,6 +18,9 @@
   padding-top: 25px;
   margin-left: 0px;
 }
+.popup_wrapper {
+  width: 370px;
+}
 .popup_wrapper2 {
   left: auto;
   top: -112px;
@@ -28,6 +31,9 @@
   left: auto;
   width: 260px;
   right: 0px;
+}
+.xtra_width {
+  width: 510px;
 }
 .triangle-down {
   left: 85px;
