@@ -58,7 +58,7 @@
 }
 .popup_mobile {
   position: relative;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   display: none;
 }
@@ -98,7 +98,10 @@
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #000;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.3);
+}
+.triangle-down {
+  border-top: 10px solid rgba(0, 0, 0, 0.3);
 }
 .tp1 {
   left: 10.5%;
@@ -123,4 +126,7 @@
 }
 .mobile_horizontal {
   display: block;
+}
+.fml {
+  margin-left: 0px !important;
 }
