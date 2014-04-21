@@ -53,13 +53,76 @@
   
       $(document).ready(function(){
 		
-		$(".pickups").click(function(){
-          $("#pickups").show();
+		$("#pickups_a").click(function(){
+          $("#pickups_b").show();
+        });
+		
+		$("#wifi_a").click(function(){
+          $("#wifi_b").show();
+        });
+		
+		$("#comfort_a").click(function(){
+          $("#comfort_b").show();
+        });
+		
+		$("#jacuzzi_a").click(function(){
+          $("#jacuzzi_b").show();
+        });
+		
+		$("#cable_a").click(function(){
+          $("#cable_b").show();
+        });
+		
+		$("#english_a").click(function(){
+          $("#english_b").show();
+        });
+		
+		$("#breakfast_a").click(function(){
+          $("#breakfast_b").show();
+        });
+		
+		$("#laundry_a").click(function(){
+          $("#laundry_b").show();
+        });
+		
+		
+
+        $("#pickups_a").click(function(){
+          $("#wifi_b, #comfort_b, #jacuzzi_b, #cable_b, #english_b, #breakfast_b, #laundry_b").hide();
         });
 
-        $("#close_popup4").click(function(){
-          $("#popup4").hide();
+        $("#wifi_a").click(function(){
+          $("#pickups_b, #comfort_b, #jacuzzi_b, #cable_b, #english_b, #breakfast_b, #laundry_b").hide();
         });
+
+        $("#comfort_a").click(function(){
+          $("#pickups_b, #wifi_b, #jacuzzi_b, #cable_b, #english_b, #breakfast_b, #laundry_b").hide();
+        });
+
+        $("#jacuzzi_a").click(function(){
+          $("#pickups_b, #wifi_b, #comfort_b, #cable_b, #english_b, #breakfast_b, #laundry_b").hide();
+        });
+
+        $("#cable_a").click(function(){
+          $("#pickups_b, #wifi_b, #comfort_b, #jacuzzi_b, #english_b, #breakfast_b, #laundry_b").hide();
+        });
+
+        $("#english_a").click(function(){
+          $("#pickups_b, #wifi_b, #comfort_b, #jacuzzi_b, #cable_b, #breakfast_b, #laundry_b").hide();
+        });
+
+        $("#breakfast_a").click(function(){
+          $("#pickups_b, #wifi_b, #comfort_b, #jacuzzi_b, #cable_b, #english_b, #laundry_b").hide();
+        });
+
+        $("#laundry_a").click(function(){
+          $("#pickups_b, #wifi_b, #comfort_b, #jacuzzi_b, #cable_b, #english_b, #breakfast_b").hide();
+        });
+		
+		/*$(".feature").click(function() {
+		  $(".feature").removeClass("active");
+		  $(this).addClass("active");
+		});*/
 
         
       });
@@ -119,7 +182,7 @@
 		  </div>
 		  <div class="row features_list margin_reset">
 			<div class="holder">
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="pickups_a">
 					<div class="feature_icon pickups"></div>
 					<p>Pickups</p>
 					<div class="popup_wrapper hidden-xs">
@@ -129,7 +192,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="wifi_a">
 					<div class="feature_icon wifi"></div>
 					<p>Wifi Internet</p>
 					<div class="popup_wrapper hidden-xs">
@@ -139,7 +202,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="comfort_a">
 					<div class="feature_icon comfort"></div>
 					<p>Comfort</p>
 					<div class="popup_wrapper hidden-xs">
@@ -149,7 +212,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="jacuzzi_a">
 					<div class="feature_icon jacuzzi"></div>
 					<p>Jacuzzi Tub</p>
 					<div class="popup_wrapper fix_4_popup hidden-xs">
@@ -160,12 +223,45 @@
 					</div>
 				</div>
 			</div>
-			<div class="popup_mobile" id="pickups">
+			
+			<!-- POPUPS MOBILE -->
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg visible_class" id="pickups_b">
 				<p>Pick-ups are included in the room price - please mention pick-ups at booking.</p>
-				<div class="triangle-down"></div>
+				<div class="triangle-up tp1"></div>
 			</div>
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg" id="wifi_b">
+				<p>Wifi internet available at guest's disposal.</p>
+				<div class="triangle-up tp2"></div>
+			</div>
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg" id="comfort_b">
+				<p>Rest well on our orthopedic matresses.</p>
+				<div class="triangle-up tp3"></div>
+			</div>
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg" id="jacuzzi_b">
+				<p>Jacuzzi tub available at guest's disposal for relaxing baths.</p>
+				<div class="triangle-up tp4"></div>
+			</div>
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg" id="cable_b">
+				<p>Including international stations.</p>
+				<div class="triangle-down tp1"></div>
+			</div>
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg" id="english_b">
+				<p>Fluent english spoken.</p>
+				<div class="triangle-down tp2"></div>
+			</div>
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg" id="breakfast_b">
+				<p>Our menu consists mostly of all natural island produce, which include: dairy (cheeses, milk, butter), eggs, breads, tea, fruits (when in season) and honey. We also specialize in a more north-american style breakfast, like pancakes, bacon, sausages, scrambled eggs, etc. Vegetarian alternatives are also available.</p>
+				<div class="triangle-down tp3"></div>
+			</div>
+			<div class="popup_mobile hidden-sm hidden-md hidden-lg" id="laundry_b">
+				<p>We do your laundry no extra charge.</p>
+				<div class="triangle-down tp4"></div>
+			</div>
+			
+			
+			
 			<div class="holder">
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="cable_a">
 					<div class="feature_icon cable"></div>
 					<p>Cable TV</p>
 					<div class="popup_wrapper hidden-xs">
@@ -175,7 +271,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="english_a">
 					<div class="feature_icon english"></div>
 					<p>English Spoken</p>
 					<div class="popup_wrapper hidden-xs">
@@ -185,7 +281,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="breakfast_a">
 					<div class="feature_icon breakfast"></div>
 					<p>Breakfast</p>
 					<div class="popup_wrapper2 hidden-xs">
@@ -195,7 +291,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="feature pull-left">
+				<div class="feature pull-left" id="laundry_a">
 					<div class="feature_icon laundry"></div>
 					<p>Laundry</p>
 					<div class="popup_wrapper3 hidden-xs">
@@ -206,6 +302,8 @@
 					</div>
 				</div>
 			</div>
+			
+			
 		  </div>
 		</div>
 	</div>
