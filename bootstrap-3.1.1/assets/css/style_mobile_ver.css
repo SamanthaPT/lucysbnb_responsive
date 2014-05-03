@@ -1,5 +1,8 @@
 /* min-width:0px and max-width:480px */
 /* min-width:0px and max-width:480px */
+.fl {
+  float: none;
+}
 .pull-right_ws {
   float: none !important;
 }
