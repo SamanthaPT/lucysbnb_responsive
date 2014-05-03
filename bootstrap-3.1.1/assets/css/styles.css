@@ -452,6 +452,46 @@ p.jumbo_txt {
   height: 216px;
   background-image: url(../images/star_moon.png);
 }
+.icon {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+.email {
+  background-image: url(../images/email.png);
+}
+.landline {
+  background-image: url(../images/landline.png);
+}
+.mobile {
+  background-image: url(../images/mobile.png);
+}
+.bullet_text {
+  float: left;
+  margin-left: 18px;
+  margin-top: 10px;
+  margin-top: 10px;
+  width: 260px;
+}
+.bullet_text p {
+  border-bottom: 8px solid #57062d;
+  padding-bottom: 5px;
+  font-family: 'Rancho', sans-serif;
+  font-size: 24px;
+  color: #a72563;
+  text-transform: uppercase;
+}
+.bullet_text .small {
+  font-family: inherit;
+  font-size: 1em;
+  color: #000;
+  border-bottom: 0px solid #000;
+  text-transform: inherit;
+  margin-top: 6px;
+}
+.cf_separator {
+  margin-bottom: 100px;
+}
 /* Bootstrap override */
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
