@@ -54,3 +54,13 @@
 .fml {
   margin-left: 0px !important;
 }
+.large_arrow {
+  width: 25px;
+  height: 41px;
+  background-size: 25px 41px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+p.jumbo_txt {
+  font-size: 6em;
+}

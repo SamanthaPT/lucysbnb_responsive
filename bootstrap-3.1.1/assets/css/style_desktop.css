@@ -12,3 +12,11 @@
 .xtra_width {
   width: 510px;
 }
+.large_arrow {
+  width: 30px;
+  height: 50px;
+  background-size: 30px 50px;
+}
+p.jumbo_txt {
+  font-size: 9em;
+}
