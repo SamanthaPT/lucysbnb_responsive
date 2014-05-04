@@ -196,3 +196,6 @@ h3 {
 .cf_separator {
   margin-bottom: 50px;
 }
+.bt_separator {
+  border-top: 4px solid #000;
+}

@@ -192,10 +192,9 @@ h1 a:hover {
   color: #a72563;
 }
 h2 {
-  float: left;
   font-family: 'Rancho', cursive;
   font-size: 5.15em;
-  margin: 80px 0px;
+  margin: 45px 0px 85px 0px;
   color: #57062d;
   font-weight: bolder;
 }
@@ -204,7 +203,7 @@ h3 {
   font-family: 'Rancho', sans-serif;
   font-size: 1.5em;
   color: #a72563;
-  margin-top: 122px;
+  margin-top: 87px;
   margin-left: 35px;
 }
 .features_list p {
@@ -466,6 +465,9 @@ p.jumbo_txt {
 .mobile {
   background-image: url(../images/mobile.png);
 }
+.home_address {
+  background-image: url(../images/home_address.png);
+}
 .bullet_text {
   float: left;
   margin-left: 18px;
@@ -488,9 +490,13 @@ p.jumbo_txt {
   border-bottom: 0px solid #000;
   text-transform: inherit;
   margin-top: 6px;
+  line-height: 1.25em;
 }
 .cf_separator {
   margin-bottom: 100px;
+}
+.bt_separator {
+  border-top: 8px solid #000;
 }
 /* Bootstrap override */
 .navbar-default {
