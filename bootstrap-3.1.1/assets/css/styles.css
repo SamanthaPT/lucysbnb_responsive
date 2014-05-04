@@ -198,7 +198,8 @@ h2 {
   color: #57062d;
   font-weight: bolder;
 }
-h3 {
+h3,
+h3.tablet {
   float: left;
   font-family: 'Rancho', sans-serif;
   font-size: 1.5em;
@@ -468,6 +469,42 @@ p.jumbo_txt {
 .home_address {
   background-image: url(../images/home_address.png);
 }
+.anchor {
+  background-image: url(../images/anchor.png);
+}
+.bicycle {
+  background-image: url(../images/bicycle.png);
+}
+.bird_watching {
+  background-image: url(../images/bird_watching.png);
+}
+.boat {
+  background-image: url(../images/boat.png);
+}
+.fishing {
+  background-image: url(../images/fishing.png);
+}
+.hiking {
+  background-image: url(../images/hiking.png);
+}
+.horseback_riding {
+  background-image: url(../images/horseback_riding.png);
+}
+.mountain_climbing {
+  background-image: url(../images/mountain_climbing.png);
+}
+.museum {
+  background-image: url(../images/museum.png);
+}
+.scuba_diving {
+  background-image: url(../images/scuba_diving.png);
+}
+.speluking {
+  background-image: url(../images/speluking.png);
+}
+.whale_dolphin_watching {
+  background-image: url(../images/whale_dolphin_watching.png);
+}
 .bullet_text {
   float: left;
   margin-left: 18px;
@@ -483,7 +520,8 @@ p.jumbo_txt {
   color: #a72563;
   text-transform: uppercase;
 }
-.bullet_text .small {
+.bullet_text .small,
+.bullet_text a {
   font-family: inherit;
   font-size: 1em;
   color: #000;
@@ -492,11 +530,27 @@ p.jumbo_txt {
   margin-top: 6px;
   line-height: 1.25em;
 }
+.bullet_text a {
+  display: block;
+}
+.bullet_text-2col {
+  width: 455px;
+}
+.mt0 {
+  margin-top: 0px !important;
+}
+.bullets_separator {
+  margin-bottom: 6.1%;
+  height: 100px;
+}
 .cf_separator {
   margin-bottom: 100px;
 }
 .bt_separator {
   border-top: 8px solid #000;
+}
+br.tablet {
+  display: none;
 }
 /* Bootstrap override */
 .navbar-default {

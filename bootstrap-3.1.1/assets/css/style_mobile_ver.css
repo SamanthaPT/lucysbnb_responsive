@@ -179,16 +179,18 @@ p.jumbo_txt {
 }
 h2 {
   margin: 15px 0px 5px 0px;
-  font-size: 4.5em;
+  font-size: 3.9em;
 }
 h3 {
   margin-top: 0px;
   margin-left: 0px;
+  margin-bottom: 20px;
 }
 .bullet_text {
   margin-left: 0px;
   width: 100%;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .bullet_text p {
   border-bottom: 8px solid rgba(87, 6, 45, 0.1);
@@ -198,4 +200,14 @@ h3 {
 }
 .bt_separator {
   border-top: 4px solid #000;
+}
+br.tablet {
+  display: block;
+}
+h3.tablet {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.mt0 {
+  margin-top: 6px !important;
 }
