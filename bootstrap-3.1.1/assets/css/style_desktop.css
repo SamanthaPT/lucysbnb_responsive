@@ -26,3 +26,11 @@ p.jumbo_txt {
 .bullet_text-2col {
   width: 355px;
 }
+.underline {
+  width: 616px;
+}
+.incognito {
+  width: 290px;
+  height: 318px;
+  background-size: 290px 318px;
+}

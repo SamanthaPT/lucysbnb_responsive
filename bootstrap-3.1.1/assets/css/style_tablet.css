@@ -81,3 +81,16 @@ br.tablet {
 h3.tablet {
   margin-top: 65px;
 }
+.underline {
+  width: 470px;
+}
+.incognito {
+  width: 220px;
+  height: 340px;
+  background-size: 220px 241px;
+  background-repeat: no-repeat;
+  background-position: 0px 100px;
+}
+h4 {
+  font-size: 6.8em;
+}
